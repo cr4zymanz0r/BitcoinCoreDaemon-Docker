@@ -1,1 +1,1 @@
-# BitcoinCoreDaemon-Docker
+# Once this is complete, it will be a docker container that automatically runs the latest Bitcoin release.
