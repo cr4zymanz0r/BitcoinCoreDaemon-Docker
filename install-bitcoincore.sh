@@ -10,3 +10,4 @@ cd /root
 wget $file
 tar xzf bitcoin*
 install -m 0755 -o root -g root -t /usr/local/bin bitcoin-$tag/bin/*
+rm -r *

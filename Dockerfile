@@ -1,9 +1,9 @@
 FROM ubuntu:bionic
 
-#ENV HOME /bitcoin
-VOLUME ["/bitcoin"]
-
 ADD /install-bitcoincore.sh /root/
 RUN /bin/bash /root/install-bitcoincore.sh
 
-CMD sleep 100000
+EXPOSE 8332 8333
+
+ADD /start-bitcoincore.sh /root/
+CMD /bin/bash /root/start-bitcoincore.sh
