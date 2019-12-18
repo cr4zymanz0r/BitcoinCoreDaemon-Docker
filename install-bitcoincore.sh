@@ -1,6 +1,6 @@
 #!/bin/sh
 
-apt-get update \
+apt-get update
 apt-get install curl jq wget -y
 baseURL="https://bitcoin.org/bin/bitcoin-core-"
 tag=$(curl https://api.github.com/repos/bitcoin/bitcoin/releases/latest | jq '.tag_name' | tr -d '"','v')
