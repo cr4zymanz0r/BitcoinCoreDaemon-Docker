@@ -5,5 +5,5 @@ RUN /bin/bash /root/install-bitcoincore.sh
 
 EXPOSE 8332 8333
 
-COPY /start-bitcoincore.sh /usr/local/bin/
-CMD ["start-bitcoincore.sh"]
+COPY start-bitcoincore /usr/local/bin/
+CMD ["start-bitcoincore"]
