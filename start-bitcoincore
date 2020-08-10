@@ -17,4 +17,4 @@ EOF
 
 fi
 
-exec bitcoind
+exec bitcoind -reindex-chainstate
