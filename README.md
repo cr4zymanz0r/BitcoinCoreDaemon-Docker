@@ -24,12 +24,6 @@ TCP 8333 (Forward this on your router if you want other peers to be able to conn
 TCP 8332 (Used for internal RPC communication. Untested with this Docker.)
 ````
 
-Environment Variables:
-```
-DOWN_LIMIT ' Limit the download bandwidth consumption to DOWN_LIMIT KB/s.
-UP_LIMIT ' Limit the upload bandwidth consumption to UP_LIMIT KB/s.
-```
-
 ____
 If you like my work and are feeling generious, here's my donation information:
 

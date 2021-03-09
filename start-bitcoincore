@@ -17,4 +17,4 @@ EOF
 
 fi
 
-trickle -s ${UP_LIMIT:+-u $UP_LIMIT} ${DOWN_LIMIT:+-d $DOWN_LIMIT} bitcoind
+exec bitcoind
